@@ -14,7 +14,7 @@
         <nav class="menu">
             <a class="logo-block " href="./index.html"><span>Web</span>Studio</a>
         <ul class="menu-list">
-            <li class="menu-list-item"><a class="link-menu" href="./index.html">Agencja</a></li>
+            <li class="menu-list-item"><a class="link-menu is-active" href="./index.html">Agencja</a></li>
             <li class="menu-list-item"><a class="link-menu" href="./portfolio.html">Portfolio</a></li>
             <li class="menu-list-item"><a class="link-menu" href="#">Kontakt</a></li>
         </ul>
@@ -28,7 +28,7 @@
     <main>
         <section class="section-one">
             <h1 class="title">EFEKTYWNE ROZWIĄZANIA <br> DLA WASZEGO BIZNESU</br></h1>
-            <button class="button" type="button">Zamów usługe</button>
+            <button data-modal-open class="button" type="button">Zamów usługe</button>
         </section>
         <section class="section">
             <div class="container">
@@ -60,9 +60,9 @@
         <div class="container">
             <h2 class="title-section">Czym się zajmujemy</h2>
             <ul class="item-jgp">
-                <li class="jgp"><img src="./images/box1.jpg" alt="tablet i dłonie na klawiaturze" width="370" height="294"></li>
-                <li class="jgp"><img src="./images/box2.jpg" alt="laptop i telefon w dłoni" width="370" height="294"></li>
-                <li class="jgp"><img src="./images/box3.jpg" alt="wybieranie kolorów na tablecie" width="370" height="294"></li>
+                <li class="jgp"><img src="./images/box1.jpg" alt="tablet i dłonie na klawiaturze" width="370" height="294"><p class="text-jgp">Aplikacje komputerowe</p></li>
+                <li class="jgp"><img src="./images/box2.jpg" alt="laptop i telefon w dłoni" width="370" height="294"><p class="text-jgp">Aplikacje mobilne</p></li>
+                <li class="jgp"><img src="./images/box3.jpg" alt="wybieranie kolorów na tablecie" width="370" height="294"><p class="text-jgp">Rozwiązania graficzne</p></li>
             </ul>
         </div>
         </section>
@@ -162,5 +162,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
