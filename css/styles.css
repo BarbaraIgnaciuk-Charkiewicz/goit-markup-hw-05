@@ -184,7 +184,7 @@ font-size: 16px;
 line-height: 1.19;
 padding-left: 99px;
 padding-right: 99px;
-margin-top: 30px;
+padding-top: 30px;
 }
 .workplace-item{
     font-size: 16px;
@@ -344,8 +344,6 @@ background-color: #F5F4FA;
     flex-wrap: wrap;
     list-style: none;
     gap: 10px; 
-    padding-left: 32px;
-    padding-right: 32px;
 }
 .button-menu{
     display: flex;
@@ -425,7 +423,6 @@ padding-bottom: 50px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
     border: #FFFFFF;
     width: 44px;
     height: 44px;
@@ -577,11 +574,10 @@ width: 528px;
 height: 581px;
 background-color: #FFFFFF;
 box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-
 box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-
 box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-
+transition-duration: 2500ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-button{
     position: absolute;
@@ -592,11 +588,18 @@ box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     background-color: #fff;
     border: solid 1px (0, 0, 0, 0.1);
     border-radius: 50%;
-    cursor: pointe;
+    cursor: pointer;
     
 }
 .is-hidden{
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+}
+.social-media-icons{
+display: flex;
+justify-content: center;
+padding-left: 32px;
+padding-right: 32px;
+padding-bottom: 30px;
 }
